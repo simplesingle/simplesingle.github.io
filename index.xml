@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simplesingle Blog</title>
-    <link>http://example.org/</link>
+    <link>https://simplesingle.github.io/</link>
     <description>Recent content on Simplesingle Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://simplesingle.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://example.org/post/my-first-post/</link>
+      <link>https://simplesingle.github.io/post/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/my-first-post/</guid>
+      <guid>https://simplesingle.github.io/post/my-first-post/</guid>
       <description>还是老规矩，直接上代码
 @Configuration public class LogListenerConfig {  private static final Logger log = LoggerFactory.getLogger(LoggerConfiguration.class);  private static final String PREFIX = &amp;#34;logging.all.&amp;#34;;  private static final String ROOT = LoggingSystem.ROOT_LOGGER_NAME;   @Resource  private LoggingSystem loggingSystem;   @ApolloConfigChangeListener(&amp;#34;LogNameSpace&amp;#34;)//这里填日志配置的命名空间  private void onChange(ConfigChangeEvent changeEvent) {  refreshLoggingLevels(changeEvent);  }   private void refreshLoggingLevels(ConfigChangeEvent changeEvent) {  for (String key : changeEvent.changedKeys()) {  // key may be : logging.</description>
     </item>
